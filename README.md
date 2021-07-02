@@ -1,1 +1,1 @@
-<script>alert('XSS');</script>
+<img src=foo.png onerror=alert(/xssed/) />
